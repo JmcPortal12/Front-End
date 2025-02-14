@@ -15,7 +15,7 @@ function App() {
             <label className='block text-black text-sm font-medium mb-2'>Password</label>
             <input className='w-full p-2 border border-gray-300 rounded-lg focus:outline-none'
               type='password'
-               placeholder='Enter Your Password 6'>
+               placeholder='Enter Your Password'>
             </input>
           </div>
           <div className='flex justify-center'>

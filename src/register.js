@@ -11,7 +11,7 @@ function Register() {
                 {/* <h2 className="text-center text-xl font-bold text-blue-800">JAMAL MOHAMED COLLEGE</h2> */}
                 <h3 className="text-center text-xl font-semibold text-gray-700">JMC STAFF ASSOCIATION</h3>
                 <div className="grid grid-cols-3 gap-4 mt-4">
-            <div>
+                    <div>
                     <select className="w-full p-2 border rounded-md">
                         <option> Mr. </option>
                         <option> Ms. </option>

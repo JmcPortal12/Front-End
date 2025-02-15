@@ -3,7 +3,7 @@ import Image from './images/jmc_logos.jpg';
 
 function App() {
   return (
-    <div className="flex items-center justify-center  min-h-screen bg-[url('E:\jmc\src\images\jmc_main.jpg')]">
+    <div className="flex items-center justify-center  min-h-screen bg-cover bg-center bg-[url('E:\jmc\src\images\jmc_main.jpg')]">
       <div className='bg-white w-96 p-8 rounded-lg'>
       <div className='mb-4'>
           <img src={Image} className="jmc_logos" alt="Vector" />

@@ -3,13 +3,19 @@ import Image from './images/jmc_logos.jpg';
 
 function Register() {
     return(
-        <div className=" min-h-screen bg-no-repeat bg-[url('E:\jmc\src\images\jmc_main.jpg')]">
-            < div className='flex items-center justify-center p-6  '>
-            <div className=' h-96 w-2/4 mt-20 p-11 bg-white '>
-                <img  src={Image} className="jmc_logos"  />
+        <div className="flex justify-center items-center min-h-screen bg-cover bg-center bg-[url('E:\jmc\src\images\jmc_main.jpg')]">
+            <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg w-[700px]">
+            <div className=''>
+                <img src={Image} className="jmc_logos" alt="Vector" />
+            </div>
+                {/* <h2 className="text-center text-xl font-bold text-blue-800">JAMAL MOHAMED COLLEGE</h2> */}
+                <h3 className="text-center text-xl font-semibold text-gray-700">JMC STAFF ASSOCIATION</h3>
+                <div className="grid grid-cols-3 gap-4 mt-4">
             <div>
-                <h2>JMC STAFF ASSOCIATION</h2>
-                <h2>UPADTE THE RECORDS</h2>
+                    <select className="w-full p-2 border rounded-md">
+                        <option> Mr. </option>
+                        <option> Ms. </option>
+                    </select>
                 </div>
                 <div>
                     <select className="w-full p-2 border rounded-md">
@@ -44,7 +50,7 @@ function Register() {
                     </select>
 
                     <div className='mt-1'>
-                        <input type='email' placeholder='@gmail.com' className='p-2 w-full h-11 rounded-lg'></input>
+                        <input type='email' placeholder='@gmail.com' className='p-2 w-full h-11'></input>
                     </div>
 
                     <div className='mt-3'>
